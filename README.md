@@ -1,10 +1,10 @@
-# XylarBedrock-Core
+# UnTrial
 
 A lightweight DLL mod for Minecraft Bedrock Edition that patches trial restrictions.
 
 ## What Does It Do?
 
-XylarBedrock dlls automatically patches the `xgameruntime.dll` library to remove trial limitations in Minecraft Bedrock Edition. It works by:
+UnTrial dlls automatically patches the `xgameruntime.dll` library to remove trial limitations in Minecraft Bedrock Edition. It works by:
 
 1. Loading when Minecraft starts
 2. Locating the `xgameruntime.dll` in memory
@@ -17,7 +17,7 @@ XylarBedrock dlls automatically patches the `xgameruntime.dll` library to remove
 
 ```powershell
 # Navigate to project directory
-cd XylarBedrock_project
+cd Untrial
 
 # Create build folder
 mkdir build -Force
